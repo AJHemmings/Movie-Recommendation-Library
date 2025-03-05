@@ -1,6 +1,6 @@
-# Movie Recommendations Library
+# 🎬 Movie Recommendations Library
 
-🎬 A Movie Recommendations Library built with Next.js, Pinecone, and OpenAI embeddings that provides personalised movie suggestions based on user input.
+A Movie Recommendations Library built with Next.js, Pinecone, and OpenAI embeddings that provides personalized movie suggestions based on user input.
 
 ## Table of Contents
 
@@ -20,22 +20,48 @@
 
 ## Tech
 
-- [Next.js](https://nextjs.org/)
-- [Pinecone](https://www.pinecone.io/)
-- [OpenAI](https://openai.com/)
-- [OMDb API](http://www.omdbapi.com/)
-- [React](https://reactjs.org/)
+- Next.js
+- Pinecone
+- OpenAI
+- OMDb API
+- React
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 
-   ```bash
-   git clone
-   ```
+```bash
+git clone <repository-url>
+cd <repository-folder>
+npm install
+```
 
 ## Usage
 
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
 ## API Endpoints
 
+- `POST /api/recommend` - Get movie recommendations based on input.
+- `POST /api/store` - Store a new movie description as an embedding.
+
 ## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
